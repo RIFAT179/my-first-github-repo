@@ -3,4 +3,6 @@
 }
 .Lorem{
                background-color: aqua;
+               box-shadow: 3px color(srgb red green blue);
+               margin: 20px 30px 20px 20px;
 }

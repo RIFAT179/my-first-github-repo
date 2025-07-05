@@ -9,3 +9,37 @@ div{
 h3{
                background-color: bisque;
 }
+div{
+               background-color: lightgray;
+               width: 300px;
+               border: 15px solid green;
+               padding: 50px;
+               margin: 20px;
+}
+body:before {
+               content: "";
+               position: absolute;
+               inset: 40% -60% 0 -60%;
+               opacity: 0.3;
+               pointer-events: none;
+              
+}
+nav{
+               position: relative;
+                z-index: 1;
+}
+nav ul{
+               margin: 0;
+               padding: 0;
+              list-style: 40px;
+               display: flex;
+               gap: 40px;
+
+}
+nav .before .active-element{
+               transform: rotateY('180deg');
+}
+.img{
+               background-image: url("images.jpg");
+               mix-blend-mode: screen;
+}
